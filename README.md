@@ -3,7 +3,7 @@ Linux Exercise project
 ## 2021.04.14 Lunch Linux Class 
 
 + OH
-   + MY
+  + MY
     + GOD
    
 |1|2|3|
