@@ -3,8 +3,8 @@ Linux Exercise project
 ## 2021.04.14 Lunch Linux Class 
 
 + OH
-  + MY
-   + GOD
+   + MY
+    + GOD
    
 |1|2|3|
 |---|---|---|
