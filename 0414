@@ -1,0 +1,33 @@
+- 安裝輸入法
+
+    
+    1. 9個點圖示
+    2. 扳手設定
+    3. 地區語言
+    4. ＋
+    5. 漢語(台灣)
+    6. 終端機
+    7. # yum search cangjie   →可google「倉頡輸入法 CentOS」
+    8. # yum install ibus-table-chinese-cangjie
+    9. 登出再登入
+
+開機啟動及執行：#enable—now cockpit.socket
+
+連線：#systemctl status cockpit.socket
+
+1973年Unix誕生
+
+1991年Linus
+
+# int 3 關閉圖型介面
+
+# int 5 開啟圖型介面
+
+ctrl+alt+f1 切換圖型介面
+
+              f2~f7  文字
+
+shutdown -h now 關機
+
+- 公式: # 命令 參數(做什麼) 引數(對象/目標)
+EX:           ls   -al                    /tmp
