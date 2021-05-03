@@ -45,7 +45,13 @@ shift+page up / shift+page down  上下移動螢幕畫面
 絕對路徑:cd /home/Peter
 相對路徑:cd ../home/Peter
 
-[目錄指令](https://www.notion.so/860adc07b8524241bab9f06d3df368b2)
+目錄指令
+[]     [File]                 [Directory]
+新增   touch.vin.nano           mkdir
+修改   cp(複製).mv(移動)      mv. cp -rap
+刪除   rm.rm -f(暴力刪除法)     rmdir(空目錄).rm -fr(暴力刪)
+查詢   ls.ll.find               同左
+
 
 #vim test
 
