@@ -49,9 +49,10 @@ shift+page up / shift+page down  上下移動螢幕畫面
 []     [File]                 [Directory]
 新增   touch.vin.nano           mkdir
 修改   cp(複製).mv(移動)      mv. cp -rap
-刪除   rm.rm -f(暴力刪除法)     rmdir(空目錄).rm -fr(暴力刪)
+刪除   rm.rm -f(暴力刪除法)     rmdir(空目錄).rm -rf(暴力刪)
 查詢   ls.ll.find               同左
 
+刪除檔案使用 rm，其中需要特別注意，不要隨便使用 rm - rf 這樣的選項，因為 -r 為刪除目錄， -f 為不詢問直接刪除， 因此若後續的檔名寫錯時，將會有相當大的影響 (一般來說，檔案刪除是無法救援回來的)。
 
 #vim test
 
