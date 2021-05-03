@@ -1,0 +1,89 @@
+<command>指令 
+
+<option>參數，改變指令執行的方向  
+
+<argument>引數，被下達指令的對象
+
+$←User  #←管理者
+
+$ su <使用者管理者切換>     
+
+$ su- root
+
+       ↑ login shell
+
+- 指令、選項、參數之間都以空格或 [tab] 作為區分，不論空幾格都視為一格，故空白是特殊字元
+- [Enter]按鍵代表著一行指令的開始啟動。
+- Linux 的世界中，英文大小寫為不同的字元，例如 cd 與 CD 是不一樣的指令。
+
+文字介面下(Ctrl+alt+F3)輸入shift+Page up/down=翻頁
+
+shift+page up / shift+page down  上下移動螢幕畫面
+
+- 日期時間:
+(1)date --help→看日期各種指令
+(2)date +%Y/%m/%d/%H/%M，顯示年/月/日/時/分
+
+- 語系功能切換：LANG=zh_TW.utf8(或是zh_TW.big5/en_US.utf8)，暫時的
+- 
+
+(1)→[BIOS]→媒體→[MBR]→[kernel]→[initd]
+
+                 ↓
+
+                   1. HDD  2.NetHDD  3.CDROM  4.USB
+
+```
+/|
+|-HOME.--|-Student.
+|        |-Peter
+|-Root
+|-etc
+```
+
+切換目錄:cd /var/spool/mail，輸入l(小寫L)s查看
+絕對路徑:cd /home/Peter
+相對路徑:cd ../home/Peter
+
+[目錄指令](https://www.notion.so/860adc07b8524241bab9f06d3df368b2)
+
+#vim test
+
+Command
+
+Jnsert
+
+exeCute
+
+w：寫入
+
+q：離開
+
+<y>：複製
+
+<y><y>：一行
+
+20<y><y>：20行
+
+<P>：貼上
+
+<p>：貼下
+
+<u>：返回
+
+<d>：刪除
+
+<d><d>：一行
+
+20<d><d>：20行
+
+dw：一字
+
+!：強迫(不存檔離開)
+
+- 忘記登入密碼:
+MBR層攔截(開機選單按e)，在kernel層更改登入密碼，vmlinuz那串最後增加rd.break，然後ctrl+x，接下來步驟看截圖
+- tab按鍵可以自動補齊指令，按一次沒反應就兩次(會出現指令選單)
+- 中斷指令:ctrl+c
+- man(manual)指令要找關鍵字的話，輸入/要找的關鍵字，n往下找，N往上找，按q退出
+- .管線符號:|，EX:A指令 | B指令，意思是A指令的結果可讓B指令繼續用
